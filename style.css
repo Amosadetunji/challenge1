@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    background-image: url(./image/backgroudimage.png);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.header-wrapper {
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding-top: 5.125rem;
+}
+
+.head {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header-wrapper nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-wrapper ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-between;
+
+}
+
+.header-wrapper ul li {
+    list-style: none;
+}
+
+.header-wrapper ul li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header-wrapper button {
+    box-shadow: 1px 1px 2px 0px #00000040;
+    background: #0078E7;
+    /* width: Fixed (213px); */
+    padding: 14px 47px 14px;
+    border-radius: 29.5px;  
+    border: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.header-wrapper button:hover {
+    opacity: 0.8;
+}
+
+
+.hero-section {
+    width: 100%;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    justify-content: space-between;
+}
+
+.hero-wrapper {
+    width: 50%;
+}
+
+.hero-wrapper p {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.188rem;
+    color: #717171;
+    letter-spacing: 0.459rem;
+}
+
+.hero-wrapper h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin-bottom: -1.4rem;
+}
+
+.hero-wrapper img {
+    /* margin-top: -2rem; */
+}
+
+.hero-btn > button {
+    box-shadow: 1px 1px 2px 0px #00000040;
+    background: #0078E7;
+    width: Fixed (213px);
+    padding: 14px 47px 14px;
+    border-radius: 29.5px;  
+    border: none;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 2.2rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.hero-btn > button:hover {
+    opacity: 0.8;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 83%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.secondhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f3f3f3;;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 90px;
+    margin-top: 200px;
+
+}
+
+.box .malebox {
+    background-color: #ffffff;
+    height: 177px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 20px 10px 55px 10px;
+    box-shadow: 1px 1px 2px 0px #00000026;
+}
+
+.box .malebox img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box .malebox h4 {
+  color: #0078E7;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* line-height: 2; */
+    text-align: center;
+
+}
+
+.box .malebox p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1.188rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.tyre {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+
+}
+
+.tyre .tyreimg {
+    position: absolute;
+    z-index: 50px;
+    margin-left: -100px;
+    margin-top: 120px;
+}
+
+.bluepart {
+    background-color: #0078E7;
+    margin-left: 50px;
+    padding: 7rem;
+    padding-bottom: 12rem;
+    /* width: 50%; */
+}
+
+.bluepart p {
+    color: #fff;
+    width: 62%;
+    margin-left: 8rem;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1.188rem;
+    line-height: 2;
+    color: #fff;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1390px) {
+    .header-wrapper, .hero-container {
+        width: 90%;
+    }
+
+    .hero-container {
+        align-items: center;
+    }
+
+    .secondhead {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .box .malebox {
+        justify-content: center;
+        width: 90%;
+    }
+
+    .tyre {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .tyreimg {
+        display: none;
+    }
+
+    .bluepart {
+        margin-left: 0px;
+        padding: 1rem;
+        padding-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .hero-wrapper p {
+        font-size: 1rem;
+    }
+
+    .hero-wrapper h1 {
+        font-size: 2.9rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .head nav {
+        display: none;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .hero-wrapper {
+        width: 90%;
+        text-align: center;
+    }
+
+    .hero-wrapper img {
+        margin-top: 1rem;
+    }
+
+    .hero-container .hero-Img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-Img img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .bluepart p {
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .header-wrapper button {
+        background: #0078E7;
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .head img {
+        width: 90%;
+    }
+    
+}
